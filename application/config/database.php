@@ -45,15 +45,15 @@ $active_group = 'default';
 $active_record = TRUE;
 
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'root';
-$db['default']['database'] = 'middlebox';
-
-//$db['default']['hostname'] = 'geocrowd.cloudapp.net';
-//$db['default']['username'] = 'weather';
-//$db['default']['password'] = 'weather';
+//$db['default']['hostname'] = 'localhost';
+//$db['default']['username'] = 'root';
+//$db['default']['password'] = 'root';
 //$db['default']['database'] = 'middlebox';
+
+$db['default']['hostname'] = 'geocrowd.cloudapp.net';
+$db['default']['username'] = 'weather';
+$db['default']['password'] = 'weather';
+$db['default']['database'] = 'middlebox';
 
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['port'] = '3306';
