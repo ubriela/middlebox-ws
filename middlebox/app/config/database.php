@@ -47,8 +47,8 @@ $active_record = TRUE;
 
 
 $db['default']['hostname'] = 'geocrowd.cloudapp.net';
-$db['default']['username'] = 'middlebox';
-$db['default']['password'] = 'middlebox';
+$db['default']['username'] = 'weather';
+$db['default']['password'] = 'weather';
 $db['default']['database'] = 'middlebox';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['port'] = '3306';
