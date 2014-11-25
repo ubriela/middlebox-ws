@@ -36,12 +36,16 @@ class Result extends CI_Controller {
     }
 
     public function store_result($username = '') {
+                // Generate unique id from application/helpers/uuid_helper.php
+        $uuid = gen_uuid();
+        
         $username= $this->input->post('username');
         $exp_type = $this->input->post('exp_type');
         $result = $this->input->post('result');
         $metadata = str_replace(',', '-', $this->input->post('metadata'));
         
         $result_data = array(
+            "resid" => $uuid,
             'username' => $username,
             'exp_type' => $exp_type,
             'result' => $result,
