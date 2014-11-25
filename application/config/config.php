@@ -16,8 +16,8 @@
 */
 
 // Hien config
-// $config['base_url']	= 'http://middlebox.azurewebsites.net/middlebox/';
- $config['base_url']	= 'http://localhost/middlebox_ws/';
+ $config['base_url']	= 'http://middlebox.azurewebsites.net/middlebox_ws/';
+// $config['base_url']	= 'http://localhost/middlebox_ws/';
 
 
 /*
