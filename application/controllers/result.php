@@ -24,6 +24,7 @@ class Result extends CI_Controller {
 
         // Load user agent library
         $this->load->helper('json_response');
+        $this->load->helper('uuid_helper');
     }
     /**
      * Default function executed when [base_url]/index.php/user is requested
@@ -36,8 +37,6 @@ class Result extends CI_Controller {
     }
 
     public function store_result($username = '') {
-                // Generate unique id from application/helpers/uuid_helper.php
-        $uuid = gen_uuid();
         
         $username= $this->input->post('username');
         $exp_type = $this->input->post('exp_type');
@@ -45,7 +44,7 @@ class Result extends CI_Controller {
         $metadata = str_replace(',', '-', $this->input->post('metadata'));
         
         $result_data = array(
-            "resid" => $uuid,
+            "resid" => "",
             'username' => $username,
             'exp_type' => $exp_type,
             'result' => $result,
@@ -59,6 +58,26 @@ class Result extends CI_Controller {
             $this->_json_response(TRUE);
         } else {
             $this->_json_response(FALSE);
+        }
+    }
+    
+        /**
+     * Sends the data in JSON format
+     *
+     * Used when the respond is for mobile application or AJAX requests
+     *
+     * @access	private
+     * @param	object	$data contains the object to be sent as JSON
+     * @return	void
+     */
+    private function _json_response($data) {
+
+        $this->output->set_content_type('application/json');
+
+        if (!empty($data)) {
+            $this->output->set_output(json_encode(array('status' => 'success', "msg" => $data)));
+        } else {
+            $this->output->set_output(json_encode(array('status' => 'error', "msg" => '0')));
         }
     }
 }
