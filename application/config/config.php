@@ -270,7 +270,7 @@ $config['sess_time_to_update']	= 60 * 60 * 24 * 365 * 10;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= ".middlebox.azurewebsites.net";
+$config['cookie_domain']	= "";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 
