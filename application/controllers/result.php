@@ -43,6 +43,7 @@ class Result extends CI_Controller {
         $result = $this->input->post('result');
         $metadata = str_replace(',', '-', $this->input->post('metadata'));
         $cellular = $this->input->post('cellular');
+        $address = $this->input->post('address');
         
         $result_data = array(
             "resid" => "",
@@ -50,7 +51,8 @@ class Result extends CI_Controller {
             'exp_type' => $exp_type,
             'result' => $result,
             'metadata' => $metadata,
-            'cellular' => $cellular
+            'cellular' => $cellular,
+            'address' => $address
         );
                         
         // query the database
