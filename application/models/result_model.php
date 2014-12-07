@@ -37,7 +37,7 @@ class Result_model extends CI_Model {
         $this->db->select('simOperator, cellular, simCountryISO, count(distinct networkType) as networkTypeCount, count(devideid) as deviceCount, count(distinct devideid) as deviceCountDistinct');
         $this->db->from('phones, results');
         $this->db->where('phones.username = results.username');
-        $this->db->group_by(array("simCountryISO", "simOperator"));
+        $this->db->group_by(array("cellular"));
         $query = $this->db->get();
         
         return $query->result_array();
