@@ -34,7 +34,7 @@ class Result_model extends CI_Model {
     }
     
     public function summary_stat() {
-        $this->db->select('simOperator, cellular, simCountryISO, count(distinct networkType) as networkTypeCount, count(distinct devideid) as deviceCountDistinct, count(devideid) as deviceCount');
+        $this->db->select('simOperator, cellular, simCountryISO, count(distinct networkType) as networkTypeCount, count(devideid) as deviceCount, count(distinct devideid) as deviceCountDistinct');
         $this->db->from('phones, results');
         $this->db->where('phones.username = results.username');
         $this->db->group_by(array("simCountryISO", "simOperator"));

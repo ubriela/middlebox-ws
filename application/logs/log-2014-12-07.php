@@ -229,3 +229,65 @@ DEBUG - 2014-12-07 15:36:45 --> Helper loaded: json_response_helper
 DEBUG - 2014-12-07 15:36:45 --> Helper loaded: uuid_helper
 DEBUG - 2014-12-07 15:36:45 --> Final output sent to browser
 DEBUG - 2014-12-07 15:36:45 --> Total execution time: 0.4830
+DEBUG - 2014-12-07 16:00:36 --> Config Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Hooks Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-07 16:00:36 --> URI Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Router Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Output Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Security Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Input Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> XSS Filtering completed
+DEBUG - 2014-12-07 16:00:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-07 16:00:36 --> Language Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Loader Class Initialized
+DEBUG - 2014-12-07 16:00:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-07 16:00:36 --> Database Driver Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Session Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-07 16:00:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Helper loaded: file_helper
+DEBUG - 2014-12-07 16:00:37 --> Session routines successfully run
+DEBUG - 2014-12-07 16:00:37 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2014-12-07 16:00:37 --> Email Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> User Agent Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Controller Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Model Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Model Class Initialized
+DEBUG - 2014-12-07 16:00:37 --> Helper loaded: cookie_helper
+DEBUG - 2014-12-07 16:00:37 --> Helper loaded: json_response_helper
+DEBUG - 2014-12-07 16:00:37 --> Helper loaded: uuid_helper
+DEBUG - 2014-12-07 16:00:37 --> Final output sent to browser
+DEBUG - 2014-12-07 16:00:37 --> Total execution time: 0.9671
+DEBUG - 2014-12-07 16:07:43 --> Config Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Hooks Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-07 16:07:43 --> URI Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Router Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Output Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Security Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Input Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> XSS Filtering completed
+DEBUG - 2014-12-07 16:07:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-07 16:07:43 --> Language Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Loader Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-07 16:07:43 --> Database Driver Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Session Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-07 16:07:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: file_helper
+DEBUG - 2014-12-07 16:07:43 --> Session routines successfully run
+DEBUG - 2014-12-07 16:07:43 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2014-12-07 16:07:43 --> Email Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> User Agent Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Controller Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Model Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Model Class Initialized
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: cookie_helper
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: json_response_helper
+DEBUG - 2014-12-07 16:07:43 --> Helper loaded: uuid_helper
+DEBUG - 2014-12-07 16:07:43 --> Final output sent to browser
+DEBUG - 2014-12-07 16:07:43 --> Total execution time: 0.6600
