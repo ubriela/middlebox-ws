@@ -35,6 +35,13 @@ class Result extends CI_Controller {
     public function index() {
         $this->login();
     }
+    
+    public function summary_all() {
+        // query the database
+        $data = $this->result_model->summary_all();
+        
+        $this->_json_response($data);
+    }
 
     public function store_result($username = '') {
         
