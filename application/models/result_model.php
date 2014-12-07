@@ -26,7 +26,7 @@ class Result_model extends CI_Model {
     public function summary_all() {
         $this->db->select('cellular, exp_type, result, count(*) as count');
         $this->db->from('results');
-        $this->db->group_by(array("cellular", "exp_type"));
+        $this->db->group_by(array("cellular", "exp_type", "result desc"));
         //$this->db->where('userid', $userid);
         $query = $this->db->get();
         

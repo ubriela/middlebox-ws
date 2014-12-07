@@ -104,3 +104,34 @@ DEBUG - 2014-12-07 12:43:16 --> Helper loaded: json_response_helper
 DEBUG - 2014-12-07 12:43:16 --> Helper loaded: uuid_helper
 DEBUG - 2014-12-07 12:43:16 --> Final output sent to browser
 DEBUG - 2014-12-07 12:43:16 --> Total execution time: 0.5290
+DEBUG - 2014-12-07 14:41:28 --> Config Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Hooks Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-07 14:41:28 --> URI Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Router Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Output Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Security Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Input Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> XSS Filtering completed
+DEBUG - 2014-12-07 14:41:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-07 14:41:28 --> Language Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Loader Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-07 14:41:28 --> Database Driver Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Session Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-07 14:41:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: file_helper
+DEBUG - 2014-12-07 14:41:28 --> Session routines successfully run
+DEBUG - 2014-12-07 14:41:28 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2014-12-07 14:41:28 --> Email Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> User Agent Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Controller Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Model Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Model Class Initialized
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: cookie_helper
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: json_response_helper
+DEBUG - 2014-12-07 14:41:28 --> Helper loaded: uuid_helper
+DEBUG - 2014-12-07 14:41:28 --> Final output sent to browser
+DEBUG - 2014-12-07 14:41:28 --> Total execution time: 0.5230
