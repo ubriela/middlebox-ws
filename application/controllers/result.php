@@ -39,8 +39,12 @@ class Result extends CI_Controller {
     public function summary_all() {
         // query the database
         $data = $this->result_model->summary_all();
-        
-        $this->_json_response($data);
+        $stat = $this->result_model->summary_stat();
+        $response_data = array(
+            "data" => $data,
+            "stat" => $stat
+            );
+        $this->_json_response($response_data);
     }
 
     public function store_result($username = '') {

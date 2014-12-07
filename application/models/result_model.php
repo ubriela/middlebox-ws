@@ -31,19 +31,15 @@ class Result_model extends CI_Model {
         $query = $this->db->get();
         
         return $query->result_array();
-//        
-//        if($query->num_rows()>0){
-//            $array = array();
-//            foreach ($query->result_array() as $row)
-//                {
-//                    $userid = $row['userid'];
-//                    $row['numrequest'] = $this->get_num_taskrequests($userid);
-//                    $row['numresponse'] = $this->get_num_taskresponses($userid);
-//                    $array[]=$row;
-//                }
-//            return $array;
-//        }else{
-//            return false;
-//        }
+    }
+    
+    public function summary_stat() {
+        $this->db->select('simOperator, cellular, simCountryISO, count(distinct networkType), count(distinct devideid), count(devideid)');
+        $this->db->from('phones, results');
+        $this->db->where('phones.username = results.username');
+        $this->db->group_by(array("simCountryISO", "simOperator"));
+        $query = $this->db->get();
+        
+        return $query->result_array();
     }
 }
